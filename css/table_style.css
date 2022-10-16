@@ -9,10 +9,6 @@
   margin: 0 auto;
 }
 
-.botao {
-  max-width: 1028px;
-}
-
 
 table {
   font-weight: 400;
@@ -67,6 +63,11 @@ table tbody tr td:before {
   left: 5px;
   position: absolute;
 }
+
+.text-fix-mobile {
+  white-space: pre-linef
+}
+
 @media (min-width: 768px) {
 
   .table-content {
@@ -120,8 +121,6 @@ table tbody tr td:before {
   table tbody tr td:last-child {
     text-align: right;
   }
-
-
   
   .content {
     padding: 0 18px;
