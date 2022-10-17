@@ -9,14 +9,10 @@
   margin: 0 auto;
 }
 
-.botao {
-  max-width: 1028px;
-}
-
 
 table {
   font-weight: 400;
-  min-width: 400px;
+  min-width: 300px;
   width: 100%;
   max-width: 1028px;
 }
@@ -33,13 +29,17 @@ table tbody tr {
   margin-bottom: 30px;
   margin-top: 60px;
 }
+
 table tbody tr td {
-  display: block;
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
   font-weight: 500;
-  padding: 5px;
-  position: relative;
+  padding: 10px;
   text-align: right;
+  margin-left: 60px;
 }
+
 table tbody tr td button {
   background: #927cfe;
   border: none;
@@ -60,13 +60,20 @@ table tbody tr td button:hover, table tbody tr td button:focus {
   background: #a795fe;
   cursor: pointer;
 }
+
 table tbody tr td:before {
   color: #8a8a87;
   content: attr(data-label);
   font-weight: 400;
   left: 5px;
   position: absolute;
+  margin-LEFT: 20px;
 }
+
+.text-fix-mobile {
+  white-space: pre-linef
+}
+
 @media (min-width: 768px) {
 
   .table-content {
@@ -120,8 +127,6 @@ table tbody tr td:before {
   table tbody tr td:last-child {
     text-align: right;
   }
-
-
   
   .content {
     padding: 0 18px;
