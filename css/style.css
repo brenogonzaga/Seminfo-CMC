@@ -466,13 +466,13 @@ _section {
   margin-top: 25px;
 }
 
-.prog_section .detail-box a {
+.prog-bottom-link {
   display: inline-block;
   padding: 10px 35px;
   background-color: #582fd7;
   color: #ffffff;
   border-radius: 5px;
-  margin: 25px 0 45px 0;
+  margin: 0 auto;
 }
 
 .prog_section .detail-box a:hover {
